@@ -1,0 +1,92 @@
+.technology {
+  height: 100vh;
+  background-image: url("../public/technology/background-technology-desktop.jpg");
+  min-height: calc(100vh - 5rem);
+  background-size: cover;
+  background-position: center;
+}
+.technology header {
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: var(--color-light--3);
+  margin-top: 2rem;
+  margin-left: 18rem;
+}
+.technology span {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--color-dark--2);
+  margin-right: 2rem;
+}
+
+.technology section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 34.1rem;
+  margin-left: 18rem;
+}
+
+.main {
+  display: flex;
+  justify-content: start;
+  gap: 5rem;
+  width: clamp(80rem, 80%, 90rem);
+  margin-top: 13rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* width: clamp(80rem, 80%, 90rem); */
+}
+
+.content h1 {
+  font-size: 5rem;
+  font-weight: lighter;
+
+  font-family: "Bellefair", serif;
+  color: var(--color-light--0);
+  text-transform: uppercase;
+}
+
+.content h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-dark--2);
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+}
+.content p {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: var(--color-light--1);
+  width: 55%;
+}
+img {
+  height: 83%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.8rem;
+}
+
+.nav button {
+  height: 63px;
+  width: 63px;
+  border: 1px solid var(--color-light--1);
+  border-radius: 50%;
+  background-color: transparent;
+  color: var(--color-light--1);
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.nav button:global(.active) {
+  background-color: var(--color-light--0);
+  color: var(--color-dark--0);
+}

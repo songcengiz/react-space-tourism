@@ -1,0 +1,71 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  padding: 2rem 8rem;
+  margin-top: 2rem;
+}
+.homepage {
+  background: linear-gradient(0.25turn, #282b2b, #475081, #494399);
+  filter: opacity(85%);
+}
+
+.destination {
+  background: linear-gradient(0.25turn, #23232c, #45485c, #282b2b);
+  filter: opacity(65%);
+}
+.crew {
+  background: linear-gradient(0.25turn, #282b2b, #666872, #4b4b4e);
+  filter: opacity(85%);
+}
+.technology {
+  background: linear-gradient(0.25turn, #282b2b, #475081, #141322);
+  filter: opacity(85%);
+}
+
+hr {
+  display: block;
+  width: 48%;
+  height: 0.1rem;
+  border-width: 0;
+  color: #696969;
+  background-color: #696969;
+}
+.nav ul li {
+  letter-spacing: 0.2rem;
+  opacity: 1;
+  color: var(--color-light--0);
+}
+.nav ul span {
+  font-weight: 900;
+  font-size: 1.6rem;
+  margin-right: 0.9rem;
+  color: var(--color-light--0);
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--0);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.nav a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.4s ease-in;
+}
+.nav a:hover::after,
+.nav a:global(.active)::after {
+  width: 100%;
+}

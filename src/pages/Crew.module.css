@@ -1,0 +1,80 @@
+.crew {
+  height: 100vh;
+  background-image: url("../public/crew/background-crew-desktop.jpg");
+  min-height: calc(100vh - 5rem);
+  background-size: cover;
+  background-position: center;
+}
+.crew header {
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: var(--color-light--3);
+  margin-top: 3rem;
+  margin-left: 18rem;
+}
+.crew span {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--color-dark--2);
+  margin-right: 2rem;
+}
+
+.crew section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20rem;
+  margin-left: 18rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  width: clamp(80rem, 80%, 90rem);
+  margin-top: 7rem;
+}
+
+.content h1 {
+  font-size: 6rem;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+  font-family: "Bellefair", serif;
+  color: var(--color-light--0);
+  text-transform: uppercase;
+}
+
+.content h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: var(--color-dark--2);
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+}
+.content p {
+  font-size: 2.2rem;
+  text-align: justify;
+  color: var(--color-light--1);
+  width: 70%;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-top: 5rem;
+}
+
+.nav button {
+  width: 1.3rem;
+  height: 1.3rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: var(--color-dark--2);
+  cursor: pointer;
+}
+
+.nav button:global(.active) {
+  background-color: var(--color-light--0);
+}
