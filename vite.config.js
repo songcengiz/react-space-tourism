@@ -4,6 +4,6 @@ import eslint from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/react-space-tourism/",
+  base: "/react-space-tourism",
   plugins: [react(), eslint()],
 });
