@@ -1,6 +1,6 @@
 .crew {
   height: 100vh;
-  background-image: url("../public/crew/background-crew-desktop.jpg");
+  background-image: url("/crew/background-crew-desktop.jpg");
   min-height: calc(100vh - 5rem);
   background-size: cover;
   background-position: center;

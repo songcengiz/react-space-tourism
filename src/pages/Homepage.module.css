@@ -1,7 +1,7 @@
 .homepage {
   height: 100vh;
   margin: 0rem;
-  background-image: url("../public/home/background-home-desktop.jpg");
+  background-image: url("/home/background-home-desktop.jpg");
   background-size: cover;
   background-position: center;
   /* padding: 2rem 5rem; */

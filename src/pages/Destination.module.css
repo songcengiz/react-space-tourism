@@ -1,6 +1,6 @@
 .destination {
   height: 100vh;
-  background-image: url("../public/destination/background-destination-desktop.jpg");
+  background-image: url("/destination/background-destination-desktop.jpg");
   min-height: calc(100vh - 5rem);
   background-size: cover;
   background-position: center;
@@ -85,7 +85,6 @@ hr {
   height: 2px;
   background-color: white;
   transition: width 0.4s ease-in;
- 
 }
 /* .nav button:hover::after {
   width: 100%;

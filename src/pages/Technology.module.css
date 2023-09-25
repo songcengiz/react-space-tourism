@@ -1,6 +1,6 @@
 .technology {
   height: 100vh;
-  background-image: url("../public/technology/background-technology-desktop.jpg");
+  background-image: url("/technology/background-technology-desktop.jpg");
   min-height: calc(100vh - 5rem);
   background-size: cover;
   background-position: center;
