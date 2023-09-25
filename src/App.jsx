@@ -14,7 +14,9 @@ function App() {
     <TechnologyProvider>
       <CrewProvider>
         <DestinationProvider>
-          <BrowserRouter>
+          <BrowserRouter
+            basename={import.meta.env.DEV ? "/" : "/react-space-tourism/"}
+          >
             <Routes>
               <Route index path="/" element={<Homepage />} />
               <Route path="destination" element={<Destination />}></Route>
