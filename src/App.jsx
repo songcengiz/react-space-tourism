@@ -16,7 +16,7 @@ function App() {
         <DestinationProvider>
           <BrowserRouter>
             <Routes>
-              <Route index element={<Homepage />} />
+              <Route index path="/" element={<Homepage />} />
               <Route path="destination" element={<Destination />}></Route>
               <Route path="crew" element={<Crew />} />
               <Route path="technology" element={<Technology />} />
